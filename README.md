@@ -16,6 +16,20 @@ The goal is to build a predictive model capable of distinguishing between metall
 - Model evaluation using accuracy  
 - Simple and beginner-friendly structure  
 
+---
+
+## Project Structure
+```bash
+.
+├── rock_vs_mine.ipynb # Main Jupyter Notebook (core project)
+├── requirements.txt # Dependencies
+└── README.md
+```
+
+> Note: Only the **Jupyter Notebook (`rock_vs_mine.ipynb`)** is included in this repository.
+
+---
+
 ## Setup Project
 
 ### 1. Create and activate virtual environment
