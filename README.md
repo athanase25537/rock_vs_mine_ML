@@ -52,7 +52,8 @@ pip install notebook
 jupyter notebook
 ```
 
-##### Then open: rock_vs_mine.ipynb
+##### Then open: 
+rock_vs_mine.ipynb
 
 #### Option 2: Convert to Python Script
 
