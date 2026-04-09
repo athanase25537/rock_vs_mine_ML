@@ -19,11 +19,12 @@ The goal is to build a predictive model capable of distinguishing between metall
 ---
 
 ## Project Structure
+```bash
 .
 ├── rock_vs_mine.ipynb # Main Jupyter Notebook (core project)
 ├── requirements.txt # Dependencies
 └── README.md
-
+```
 
 > Note: Only the **Jupyter Notebook (`rock_vs_mine.ipynb`)** is included in this repository.
 
@@ -36,7 +37,6 @@ The goal is to build a predictive model capable of distinguishing between metall
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
 ```
 
@@ -62,7 +62,8 @@ If you prefer running a .py file:
 ```bash
 jupyter nbconvert --to script rock_vs_mine.ipynb
 ```
-##### This will generate: rock_vs_mine.py
+##### This will generate:
+rock_vs_mine.py
 ##### Run the script:
 ```bash
 python3 rock_vs_mine.py
